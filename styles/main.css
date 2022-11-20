@@ -150,7 +150,7 @@ form.button-search-menu button {
     border: 1px solid rgb(187, 187, 187);
     border-left: none; 
     cursor: pointer;
-  }
+}
   
   /*Бокове меню*/
 
@@ -161,5 +161,136 @@ form.button-search-menu button {
     color: rgb(83, 83, 83);
 }
 
+/*Блок с товарами*/
 
+.main-main {
+    margin-left: 30px;
+    width: 100%;
+}
+
+.bread-crumbs {
+    display: flex;
+}
+
+.mdash {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.bread-crumbs-items {
+    color: rgb(83, 83, 83);
+}
+
+.bread-crumbs-items:last-child {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
  
+.block-filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-left-items, .buttons-right-items {
+    border: 3px solid rgb(255, 174, 0);
+    padding: 10px;
+    background-color: rgb(255, 174, 0);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.buttons-left-new, .buttons-right-in-stock {
+    border: 3px solid rgb(255, 174, 0);
+    padding: 10px;
+    color: black;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.filter-price {
+    margin-top: 40px;
+    font-weight: 700;
+}
+
+.filter-sort {
+    color: rgb(83, 83, 83);
+    font-weight: 100;
+}
+
+/*Карточка товара*/
+
+.product-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(218, 218, 218);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.product-block:last-child {
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.img-product {
+    width: 130px;
+}
+
+.description-product {
+    width: 40%;
+    margin-left: -50px;
+}
+
+.description-product-title {
+    margin-top: 0;
+}
+
+.product-href {
+    text-decoration: underline;
+    margin-top: 0;
+}
+
+.bottom-description, .price-product-price {
+    margin-bottom: 0;
+}
+
+.price-product-in-sale {
+    margin-top: 0;
+    color: rgb(83, 83, 83);
+}
+
+.button-and-adress {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.button-and-adress-adress {
+    margin-bottom: 25px;
+    text-decoration: underline;
+    color: rgb(83, 83, 83);
+
+}
+
+.button-and-adress-cart {
+    color: #fff;
+    background-color: rgb(255, 174, 0);
+    padding: 10px 30px 12px 30px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+/*footer*/
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 174, 0);
+    margin-top: 50px;
+}
