@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Авто Штаб</title>
 </head>
 <body>
+<!--Верхнее меню в серой плашке-->
     <header class="header">
         <div class="container top-container">
             <div class="menu-top">
@@ -24,6 +26,7 @@
             </div>
         </div>
     </header>
+<!--Нижнее меню с логотипом и корзиной-->
     <div class="container bottom-container">
         <div>
             <a href="#">
@@ -39,6 +42,7 @@
             </span>
         </div>
     </div>
+<!--Линия с поиском-->
     <div class="header-line">
         <div class="container header-line">
             <p class="sort">За номером</p>
@@ -53,29 +57,40 @@
             </form>
         </div>
     </div>
+<!--Общий блок-->
+
     <div class="container main">
-        <div class="container main-menu-left">
-            <div class="search-main-menu-left">
-                <form class="search-in-menu" action="action_page.php">
-                    <input type="text" class="button-search-in-menu" placeholder="Пошук за категоріями.." name="search">
-                </form>
+        <div class="main-menu">
+<!--Поиск над меню-->            
+            <div class="search-menu">
+                <form class="button-search-menu" action="action_page.php">
+                    <input type="text" placeholder="Пошук за категоріями.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
             </div>
-            <div class="main-menu">
-                <a class="block-menu-nothing" href="#">Пусто</a>
-                <a class="block-menu" href="#">Інструмент</a>
-                <a class="block-menu" href="#">Колiсні диски, покришки</a>
-                <a class="block-menu" href="#">Кузов внутрішні</a>
-                <a class="block-menu" href="#">Кузов зовнішні элементи</a>
-                <a class="block-menu" href="#">Кузовне скло</a>
-                <a class="block-menu" href="#">Олія та тех. рідина</a>
-                <a class="block-menu" href="#">Оптика</a>
-                <a class="block-menu" href="#">Підвіска двигуна та КПП</a>
-                <a class="block-menu" href="#">Підвіска задніх колiс</a>
-                <a class="block-menu" href="#">Підвіска передніх колiс</a>
-                <a class="block-menu" href="#">Рульове управління</a>
-                <a class="block-menu" href="#">Система випуску газів (попа)</a>
+<!--Меню-->            
+            <div class="menu-items">
+                <a href="#" class="section-items">Інструмент</a>
+                <a href="#" class="section-items">Колісні диски, покришки</a>
+                <a href="#" class="section-items">Кузов внутрішньо</a>
+                <a href="#" class="section-items">Кузов зовнішні елементи</a>
+                <a href="#" class="section-items">Кузовне скло</a>
+                <a href="#" class="section-items">Мастила та тех.рідини</a>
+                <a href="#" class="section-items">Оптика</a>
+                <a href="#" class="section-items">Підвіска двигуна/КПП</a>
+                <a href="#" class="section-items">Підвіска задніх коліс</a>
+                <a href="#" class="section-items">Підвіска передніх коліс</a>
+                <a href="#" class="section-items">Рульове управління</a>
+                <a href="#" class="section-items">Система випуску газів(попа)</a>
             </div>
         </div>
+<!--Блок с товарами-->        
+        <div class="main-main">
+            <div class="bread-crumbs"></div>
+            <div class="block-filter"></div>
+            <div class="product-block"></div>
+        </div>
     </div>
+        
 </body>
 </html>
